@@ -13,6 +13,9 @@ footer {
 }
 
 .footer-content {
+  display: flex;
+
+  gap: 128px;
 }
 
 .footer-bottom {
@@ -87,4 +90,24 @@ button {
 
 .content-wrapper p {
   font-size: 12px;
+}
+
+.content-nav {
+  display: flex;
+
+  gap: 40px;
+}
+
+.content-nav nav {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.content-nav h3 {
+  font-size: 16px;
+  font-weight: 600;
 }
