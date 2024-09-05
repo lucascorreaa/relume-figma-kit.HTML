@@ -14,7 +14,7 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  
+
   width: 100%;
 }
 
@@ -70,6 +70,8 @@ input[type="email"] {
   border: 1px solid black;
   padding: 12px;
   font-size: 16px;
+  background-color: transparent;
+  color: #666666;
 }
 
 button {
@@ -126,4 +128,13 @@ button {
 
 .content-nav div {
   width: 202px;
+}
+
+@media (max-width: 375px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+  }
 }
