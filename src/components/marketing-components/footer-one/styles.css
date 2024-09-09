@@ -133,11 +133,13 @@ button {
 @media (max-width: 375px) {
   .footer-content {
     flex-direction: column;
+    gap: 48px;
   }
 
   .footer-bottom {
     flex-direction: column-reverse;
     height: 100%;
+    align-items: flex-start;
   }
 
   .content-info {
@@ -155,9 +157,29 @@ button {
   footer {
     height: 100%;
     padding: 48px 20px;
+    gap: 48px;
   }
 
   .content-nav {
     flex-direction: column;
   }
+
+  input[type="email"] {
+    width: 335px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .nav-terms {
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-bottom p {
+    margin-top: 32px;
+  }
+  
 }
