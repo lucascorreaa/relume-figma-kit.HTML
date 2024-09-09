@@ -134,7 +134,30 @@ button {
   .footer-content {
     flex-direction: column;
   }
+
   .footer-bottom {
     flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .content-info {
+    height: 100%;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .content-wrapper p {
+    width: 335px;
+  }
+
+  footer {
+    height: 100%;
+    padding: 48px 20px;
+  }
+
+  .content-nav {
+    flex-direction: column;
   }
 }
