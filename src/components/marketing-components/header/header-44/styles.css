@@ -1,0 +1,52 @@
+
+
+
+
+
+
+@media (max-width: 375px) {
+  header {
+    height: 100%;
+    padding: 64px 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 335px;
+  }
+
+  .header-text h5 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .header-text h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .header-text p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .header-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .header-buttons button {
+    padding: 12px 24px;
+    border: 1px black solid;
+    background-color: white;
+  }
+
+  #btn-1 {
+    background-color: black;
+    color: white;
+  }
+}
