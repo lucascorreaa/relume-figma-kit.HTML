@@ -1,0 +1,119 @@
+footer {
+
+    display: flex;
+    width: 100%;
+    height: 377px;
+    gap: 80px;
+    flex-direction: column;
+    padding: 80px 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.footer-content a {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-pages {
+
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+img {
+
+    height: 27px;
+}
+
+a {
+    color: black;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    width: 100%;
+    height: 54px;
+    gap: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid black;
+    font-size: 14px;
+
+}
+
+.footer-bottom p {
+
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.nav-terms {
+    display: flex;
+    gap: 32px;
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-pages a {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+@media (max-width: 376px) {
+    footer {
+        height: 100%;
+
+        padding: 48px 20px;
+        gap: 48px;
+    }
+
+    .footer-content {
+        height: 100%;
+
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 32px;
+    }
+
+    .nav-pages {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+
+        height: 100%;
+        align-items: center;
+    }
+
+    .nav-terms {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .footer-bottom p {
+        margin-top: 32px;
+    }
+
+}
