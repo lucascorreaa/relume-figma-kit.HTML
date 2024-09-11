@@ -1,0 +1,14 @@
+.header-content {
+    width: 100%;
+    display: flex;
+
+    padding: 112px 64px;
+}
+
+.header-info {
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    align-items: flex-end;
+}
+
