@@ -1,0 +1,16 @@
+.header{
+    width: 100%;
+    padding: 112px 64px;
+
+}
+
+.conteiner{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 10px;
+    
+    border: 1px solid black;
+}
