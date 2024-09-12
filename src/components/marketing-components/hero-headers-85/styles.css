@@ -66,14 +66,5 @@ p.detalhes {
 }
 
 @media (max-width: 375px) {
-header {
-  display: flex;
-  flex-direction: column-reverse;
-}
 
-img{
-  display: flex;
-  width: 335px;
-  height: 326%;
-}
 }
