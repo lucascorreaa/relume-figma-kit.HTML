@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+.content-header {
+  display: flex;
+}
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 48px;
+}
+
+.content-header h1 {
+  font-size: 56px;
+  width: 560px;
+  height: 134px;
+  margin-top: 80px;
+}
+
+img {
+  width: 656px;
+  height: 640px;
+}
+
+.title-page p {
+  font-size: 18px;
+  width: 560px;
+  height: 81px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+input[type="email"] {
+  width: 396px;
+  height: 48px;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 12px;
+}
+
+button {
+  width: 101px;
+  height: 48px;
+  background-color: black;
+  color: white;
+}
+
+.detalhes p {
+  font-size: 12px;
+  width: 513px;
+  height: 18px;
+}
+
+header{
+  border: 1px solid black;
+}
+
+@media (max-width: 375px) {
+body {
+    padding: 48px 20px;
+}
+
+    .content-header {
+    flex-direction: column; 
+}
+
+.title-page h1{
+    width: 271px;
+    height: 144px;
+    font-size: 40px;
+}
+
+.title-page p{
+  width: 271px;
+  height: 168px;
+  font-size: 16;
+  margin-top: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input [type="email"]{
+  width: 271px;
+  height: 48px;
+  font-size: 16px;
+  }
+
+button {
+  width: 271px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.detalhes {
+  width: 271px;
+  height: 36px;
+  font-size: 12px;
+}
+
+img{
+  width: 335px;
+  height: 326px;
+}
+
+}
+  
