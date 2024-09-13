@@ -28,8 +28,7 @@ header {
 
 img {
   width: 50%;
-  height: 640px;
-}
+ }
 
 p {
   font-size: 18px;
@@ -65,6 +64,66 @@ p.detalhes {
   height: 18px;
 }
 
-@media (max-width: 375px) {
+a{
+  text-decoration: underline;
+  color: black;
+}
 
+@media(max-width: 375px) {
+  
+  header{
+    flex-direction: column;
+    padding: 48px 20px;
+  }
+
+  .content-header{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .title-page{
+    padding: 32px 32px;
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .content-header h1{
+    font-size: 37.4px;
+    width: 100%;
+    height: 100%;
+  }
+
+  p{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  form{
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    height: 48px;
+  }
+
+  button{
+    width: 100%;
+    height: 48px;
+  }
+
+p.detalhes{
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+}
 }
