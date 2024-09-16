@@ -81,7 +81,7 @@ body {
 }
 
 
-@media (max-width: 991px) {
+@media (min-width: 481px) and (max-width: 991px) {
     
     .main-wrapper {
         display: flex;
@@ -120,7 +120,7 @@ body {
 
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
     .main-wrapper {
         display: flex;
         flex-direction: column;
