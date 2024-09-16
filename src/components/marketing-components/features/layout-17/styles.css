@@ -1,14 +1,121 @@
 section {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 112px 64px;
-    width: 1312px;
-    height: 640px;
-    display: flex;
-    flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 112px 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 h6 {
+  width: 53px;
+  height: 24px;
+  font-size: 16px;
+}
+
+h1 {
+margin-top: 16px;
+  width: 616px;
+  height: 116px;
+  font-size: 48px;
+}
+
+.title-content p {
+  width: 616px;
+  height: 81px;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+ul {
+  width: 616px;
+  height: 120px;
+  margin-top: 32px;
+}
+
+li {
+  list-style-position: inside;
+  list-style-image: url(/src/assets/images/vetor-ul.svg);
+  margin-top: 20px;
+}
+
+.buttons {
+  font-size: 16px;
+  width: 200px;
+  height: 64px;
+  margin-top: 24px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  width: 96px;
+  height: 48px;
+}
+
+button.bord {
+  border: 1px solid black;
+}
+
+img {
+  width: 616px;
+  height: 640px;
+  margin-left: 84px;
+}
+
+button.arrow-button::after {
+  content: ">";
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  section {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h6 {
     width: 53px;
     height: 24px;
     font-size: 16px;
-    }   
+    }
+
+    h1 {
+        width: 335px;
+        height: 129px;
+        font-size: 36px;
+        margin-top: 12px;
+    }
+
+    .title-content p {
+        width: 335px;
+        height: 120px;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    ul {
+width: 335px;
+height: 192px;
+margin-top: 20px;
+    }
+
+.buttons {
+     margin-top: 8px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 48px;
+}
+}
