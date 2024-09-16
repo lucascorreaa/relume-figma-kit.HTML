@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbarOne</title>
+  <link rel="stylesheet" href="../../../../style/global.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-container">
+      <img src="../../../../assets/images/logo.png" alt="brand-logo">
+      <nav>
+        <p><a href="#">Link One</a></p>
+        <p><a href="#">Link Two</a></p>
+        <p><a href="#">Link Three</a></p>
+        <div class="nav-item">
+          <a href="#" id="dropdownToggle">Link Four</a>
+          <span class="dropdown-icon" id="dropdownIcon">
+            <img src="../../../../assets/images/Vector.svg" alt="dropdown-arrow">
+            <div>
+              <ul class="dropdown-menu" id="dropdownMenu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+              </ul>
+            </div>
+          </span> 
+        </div>
+        <div class="button-container">
+          <button class="button-1">Button</button>
+          <button class="button-2">Button</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <script>
+    const dropdownToggle = document.getElementById('dropdownToggle');
+    const dropdownIcon = document.getElementById('dropdownIcon');
+    const dropdownMenu = document.getElementById('dropdownMenu');
+
+    function toggleDropdown(event) {
+      event.preventDefault();
+      dropdownMenu.classList.toggle('open');
+    }
+
+    dropdownToggle.addEventListener('click', toggleDropdown);
+    dropdownIcon.addEventListener('click', toggleDropdown);
+  </script>
+</body>
+
+</html>
