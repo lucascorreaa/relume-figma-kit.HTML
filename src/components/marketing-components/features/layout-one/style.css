@@ -42,3 +42,39 @@ img {
     height: 640px;
     
 }
+
+@media(max-width: 375px ){
+.layout-content{
+flex-direction: column;
+gap: 48px;
+
+}
+
+
+}
+
+.layout-info{
+    padding: 64px 0 0 0 ;
+    gap: 8px;
+
+}
+
+img {
+    width: 335px;
+    height: 348px;
+}
+
+
+.button-content {
+padding: 16px 0 0 0 ;
+flex-direction: column;
+gap: 24px;
+
+}
+
+button{
+width: 96px;
+height: 48px;
+gap: 24px;
+
+}
