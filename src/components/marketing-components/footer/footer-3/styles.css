@@ -15,13 +15,11 @@ a {
     display: flex;
     gap: 64px;
 }
-
 .content {
     width: 864px;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    
 }
 .content-info {
     display: flex;
@@ -30,9 +28,6 @@ a {
 }
 .address div{
     margin-top: 4px;
-}
-.address p {
-    text-decoration: underline;
 }
 .contact div{
    margin-top: 4px;
@@ -73,11 +68,13 @@ a {
 }
 @media(max-width:376px) {
     footer {
+        height: 963px;
         flex-direction: column;
         padding: 48px 20px;
         gap: 48px;
     }
     .footer-content {
+        display: flex;
         flex-direction: column;
         gap: 48px;
     }
@@ -93,9 +90,11 @@ a {
         height: 100%;
         align-items: flex-start;
         gap: 24px;
-
     }
     .nav-terms {
         flex-direction: column;
+        gap: 16px;
+        padding-bottom: 16px;
+        margin-top: 24px;
     }
 }
