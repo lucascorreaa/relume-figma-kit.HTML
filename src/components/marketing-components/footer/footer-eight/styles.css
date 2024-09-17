@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #fff;
+  padding: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.subscribe {
+  max-width: 300px;
+}
+
+.subscribe h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.subscribe form {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.subscribe p a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 375px) {
+  .footer-main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-nav {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .subscribe {
+      margin-top: 20px;
+  }
+
+  .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+  }
+}
