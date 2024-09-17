@@ -54,7 +54,6 @@ gap: 48px;
 }
 
 .layout-info{
-    padding: 64px 0 0 0 ;
     gap: 8px;
 
 }
@@ -66,15 +65,39 @@ img {
 
 
 .button-content {
-padding: 16px 0 0 0 ;
-flex-direction: column;
-gap: 24px;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: ;
+}
+
+.special-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction;
+    
 
 }
 
 button{
 width: 96px;
 height: 48px;
-gap: 24px;
+margin:0px 24px 0  0;
+
+}
+
+.button-content img{
+    width: 7px;
+    height: 11px;
+        
+    gap: 15px;
+
+
+
+}
+
+.button-content p{
+display: flex; 
 
 }
