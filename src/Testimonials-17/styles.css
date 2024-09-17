@@ -1,0 +1,54 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 64px;
+
+}
+
+.custumer-testimonial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 112px;
+
+}
+h1{
+    display:flex ;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 286.89px;
+    width: 100%;
+    gap: 32px;
+}
+.avaliantes{
+    width: 410px;
+    height: 286px;
+    border: 1px solid black;
+    padding-top: 32px;
+    padding: 32px;
+    
+}
+.texto-avalicao{
+    margin-top: 32px;
+    padding: 32px;
+}
+
+p{
+    margin-top: 24px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 16px;
+}
