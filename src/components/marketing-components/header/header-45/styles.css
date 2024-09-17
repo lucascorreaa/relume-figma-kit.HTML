@@ -1,0 +1,116 @@
+header {
+    padding: 112px 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+
+.header-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.header-text h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+.header-text p {
+    width: 692px;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+input[type="email"] {
+    width: 396px;
+    height: 48px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #666666 ;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    width: 101px;
+    height: 48px;
+
+    border: 1px solid black;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.content-wrapper p {
+    height: 18px;
+    font-size: 12px;
+    padding-bottom: 112px;
+
+}
+
+@media (max-width: 375px) {
+    .header-text {
+        flex-direction: column;
+        width: 335px;
+        height: 100%;
+    }
+
+    .header-text h4 {
+        margin-bottom:12px ;
+        height: 100%;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+      
+    }
+
+    .header-text P {
+        font-size: 16px;
+        height: 100%;
+        width: 335px;
+        margin-bottom: 24px;
+    }
+
+    .content-wrapper {
+        width: 335px;
+        gap: 16px;
+        height: 48px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input[type="email"] {
+        width: 335px;
+    
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .content-wrapper p {
+        margin-bottom:64px ;
+    }
+
+}
