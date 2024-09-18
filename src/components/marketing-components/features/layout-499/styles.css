@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .content1 {
@@ -14,6 +15,7 @@ body {
   flex-direction: column;
   width: 768px;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .content1 span {
@@ -32,12 +34,128 @@ body {
   margin-bottom: 32px;
 }
 
+.button-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
 .button-container button {
+    font-size: 16px;
   width: 98px;
   height: 48px;
+  background-color: transparent;
+}
+
+.btn-1 {
+  border: 1px solid black;
+}
+
+.btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-left: 24px;
+}
+
+.content2 {
+  display: flex;
+  width: 1312px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-right: 80px;
+}
+
+.text-content-1, .text-content-2, .text-content-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 
-.content2 {
-  width: 1312px;
+.text-content-1 {
+  border-left: 1px solid black;
+}
+
+.text-content-1 h1 {
+  font-size: 32px;
+}
+
+
+
+@media (max-width: 375px) {
+  .wrapper {
+      padding: 64px 20px;
+    }
+
+  
+  .content1 {
+    width: 335px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+
+  .content1 h1 {
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .content1 p {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .content2 {
+    flex-direction: column;
+    width: 335px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-right: 0px;
+  }
+
+  .text-content-1,
+  .text-content-2,
+  .text-content-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+    .text-content-1 h1,
+    .text-content-2 h1,
+    .text-content-3 h1 {
+      font-size: 24px;
+    }
+
+  .text-content-1 {
+    border-left: 1px solid black;
+
+  }
+
+  .content2 img {
+    width: 335px;
+  }
 }
