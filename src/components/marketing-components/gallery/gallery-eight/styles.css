@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 112px 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-wrapper p {
+    margin-bottom: 80px;
+}
+
+.image-wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+.images-container1 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.images-container2 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column-reverse;
+}
+
+
+
+@media (max-width: 480px) {
+
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .text-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .text-wrapper p {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+    .image-wrapper {
+        flex-direction: column;
+        width: 335px;
+        gap: 24px;
+    }
+    
+    .images-container1 {
+        gap: 24px;
+    }
+    
+    .images-container2 {
+        gap: 24px;
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 991px) {
+    
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .text-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .text-wrapper p {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+    .image-wrapper {
+        flex-direction: column;
+        width: 400px;
+        gap: 24px;
+    }
+    
+    .images-container1 {
+        gap: 24px;
+    }
+    
+    .images-container2 {
+        gap: 24px;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-wrapper {
+        flex-direction: column;
+        width: 700px;
+        gap: 24px;
+    }
+    
+    .images-container1 {
+        gap: 24px;
+    }
+    
+    .images-container2 {
+        gap: 24px;
+    }
+
+}
