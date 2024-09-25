@@ -31,9 +31,8 @@ h6 {
   font-size: 18px;
   font-weight: 400;
 }
-section:last-child{
-    gap: unset;
-
+section:last-child {
+  gap: unset;
 }
 .main-container {
   padding: 48px;
@@ -62,9 +61,48 @@ p {
 .avatar-content > p:last-child {
   font-weight: 400;
 }
-.menu-tabs>img{
-    padding: 34px 97px;
-    border: 1px solid black;
+.menu-tabs > img {
+  padding: 34px 97px;
+  border: 1px solid black;
+}
 
+@media (max-width: 375px) {
+  main {
+    padding-top: 64px;
+    gap: 48px;
+  }
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  section {
+    width: 335px;
+    align-items: center;
+  }
+  h6 {
+    font-size: 16px;
 
+    text-align: center;
+  }
+  .main-container {
+    flex-direction: column-reverse;
+    width: 335px;
+    gap: 48px;
+    padding: 24px;
+  }
+  .main-container > img {
+    width: 287px;
+  }
+  .text-wrapper{
+    gap: 24px;
+  }
+  .text-wrapper > p {
+    font-size: 20px;
+  }
+  .menu-tabs {
+    flex-direction: column;
+  }
+  .menu-tabs > img {
+    padding: 16px 98.5px;
+  }
 }
