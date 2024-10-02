@@ -1,7 +1,7 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    padding: 64px;
+    padding: 20px;
 
 
 }
@@ -18,7 +18,7 @@ h1{
     justify-content: center;
 }
 p{
-    display: flex;
+
     justify-content: center;
 }
 .avaliacao{
@@ -44,9 +44,6 @@ p{
     padding: 32px;
 }
 
-p{
-    margin-top: 2px;
-}
 .estrela{
     display: flex;
     justify-content:flex-start;
@@ -77,22 +74,44 @@ h2 {
         flex-direction: column;
     }
     .avaliantes{
-        width: 100%;
+        padding: 30px;
+        width: 240px;
     }
     .texto-avalicao{
-        height: 100%;
+        width: 100px;
     }
 
     .name-surname{
         padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 20px;
 
-    }
     }
     .custumer-testimonial{
         display: flex;
+        
         align-items: center;
-        flex-wrap: wrap;
+
     }
+    .img-avatar{
+        width: 60px;
+    }
+    
+    
+    p{
+        margin: 0;
+    }
+    .estrela-img{
+        width: 30px;
+    }
+
+}
+
+    
+   
+    
 
 
 
