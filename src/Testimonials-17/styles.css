@@ -1,0 +1,120 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 20px;
+
+
+}
+
+.custumer-testimonial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 112px;
+
+}
+h1{
+    display:flex ;
+    justify-content: center;
+}
+p{
+
+    justify-content: center;
+}
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 286.89px;
+    width: 100%;
+    gap: 32px;
+}
+.avaliantes{
+    width: 410px;
+    height: 286px;
+    border: 1px solid black;
+    padding-top: 32px;
+    padding: 32px;
+
+
+    
+}
+.texto-avalicao{
+    margin-top: 32px;
+    padding: 32px;
+}
+
+.estrela{
+    display: flex;
+    justify-content:flex-start;
+}
+
+h3{
+    font-size: 16px;
+}
+h2 {
+    margin-bottom: 0;
+}
+
+.name-surname {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding-top: 50px;
+
+}
+
+@media (max-width: 344px) {
+    .body{
+        height: 100%;
+    }
+    .avaliacao{
+        height: 100%;
+        flex-direction: column;
+    }
+    .avaliantes{
+        padding: 30px;
+        width: 240px;
+    }
+    .texto-avalicao{
+        width: 100px;
+    }
+
+    .name-surname{
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 20px;
+
+    }
+    .custumer-testimonial{
+        display: flex;
+        
+        align-items: center;
+
+    }
+    .img-avatar{
+        width: 60px;
+    }
+    
+    
+    p{
+        margin: 0;
+    }
+    .estrela-img{
+        width: 30px;
+    }
+
+}
+
+    
+   
+    
+
+
+
+
+
+
